@@ -1,0 +1,98 @@
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url('../fonts/Montserrat/Montserrat-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat-Thin;
+  src: url('../fonts/Montserrat/Montserrat-Thin.ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('../fonts/Montserrat/Montserrat-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat-Italic;
+  src: url('../fonts/Montserrat/Montserrat-Italic.ttf'); 
+}
+
+
+h1
+{
+	font-family: Montserrat-Regular;
+	font-size: 30px;
+	color: azure;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+h2{
+	color: azure;
+	font-family: Montserrat-Thin;
+	font-size: 24px;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+h3{
+	color: azure;
+	font-family: Montserrat-Thin;
+	font-size: 18px;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+ul{
+	color: azure;
+}
+a{
+	color: cyan;	
+}
+table
+{
+	background-color: white;
+
+		
+}
+td{
+	border: 1px solid grey;
+	border-collapse: collapse;
+}
+tr{
+	border: black;
+	font-family: Montserrat-Regular;
+}
+
+th
+{
+	font-family: Montserrat-Regular;
+	
+	color: white;
+	background-color: gray;
+}
+.wikitable
+{
+	margin-left: 2%;
+	
+	    border: 1px solid #aaaaaa;
+	box-shadow: 4px 4px 0 rgba(255,255,255,0.3);
+	width: 95%
+}
+.important
+{
+	color: red;
+	font-family: Montserrat-Italic;
+	font-size: 30px;
+}
+
+
+		footer{
+			font-family: Montserrat-Regular;
+			color: white;
+			background-color: rgba(0, 0, 0, 0.8);
+			text-align: center;	
+			padding: 5px;
+			
+			font-size: 16px;
+		}
